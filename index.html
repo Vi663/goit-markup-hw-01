@@ -3,141 +3,150 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="logo">WebStudio</title>
+    <title>WebStudio</title>
     <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/variables.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Raleway:wght@700&display=swap"
+      rel="stylesheet">
   </head>
   <body>
     <!--top-->
-    <header>
+    <header class="header">
       <nav>
-        <a href="#studio">WebStudio</a>
+        <a class="logo" href="./index.html">WebStudio</a>
         <ul>
-          <li id="studio"><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#contacts">Контакты</a></li>
+          <li class="navlink">
+            <a href="./index.html">Студия</a>
+          </li>
+          <li class="navlink">
+            <a href="../goit-markup-hw-02/index.html">Портфолио</a>
+          </li>
+          <li class="navlink">
+            <a href="#contacts">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
       <!--main content-->
     <main>
         <!--Эффективные решения для вашего бизнеса-->
-          <section>
-            <h1>
+          <section class="dialing">
+            <h1 class="header1">
               Эффективные решения для вашего бизнеса
             </h1>
-            <button type="button">Заказать услугу</button>
+            <button class="button" type="button">Заказать услугу</button>
           </section>
         <!--Особенности-->
-        <section>
+        <section class="features">
           <ul>
             <!--Feature 1-->
-            <li>
-              <h3>Внимание к деталям</h3>
-              <p>Идейные соображения, а также начало повседневной 
+            <li class="features">
+              <h3 class="header3">Внимание к деталям</h3>
+              <p class="feature-item">Идейные соображения, а также начало повседневной 
               работы по формированию позиции.</p>
             </li>
             <!--Feature 2-->
             <li>
-              <h3>Пунктуальность</h3>
-              <p>Задача организации, в особенности же рамки 
+              <h3 class="header3">Пунктуальность</h3>
+              <p class="feature-item">Задача организации, в особенности же рамки 
               и место обучения кадров влечет за собой.</p>
             </li>
             <!--Feature 3-->
             <li>
-              <h3>Планирование</h3>
-              <p>Равным образом консультация с широким 
+              <h3 class="header3">Планирование</h3>
+              <p class="feature-item">Равным образом консультация с широким 
               активом в значительной степени обуславливает.</p>
             </li>
             <!--Feature 4-->
             <li>
-              <h3>Современные технологии</h3>
-              <p>Значимость этих проблем настолько 
+              <h3 class="header3">Современные технологии</h3>
+              <p class="feature-item">Значимость этих проблем настолько 
               очевидна, что реализация плановых заданий.</p>
             </li>
           </ul>
         </section>
-        <section>
+        <section class="work">
         <!--Чем мы занимаемся-->
-        <h2>
+        <h2 class="header2">
         Чем мы занимаемся
         </h2>
           <ul>
             <!--box 1-->
-            <li>
+            <li class="box">
               <a href="#">
-                <img src="./images/box1.jpg" alt="workspase1"
+                <img class="box-image" src="./images/box1.jpg" alt="workspase1"
                 width="370" height="294" />
               </a>
             </li>
             <!--box 2-->
-            <li>
+            <li class="box">
               <a href="#">
-                <img src="./images/box2.jpg" alt="workspase2" 
+                <img class="box-image" src="./images/box2.jpg" alt="workspase2" 
                 width="370" height="294" />
               </a>
             </li>
             <!--box 3-->
-            <li>
+            <li class="box">
               <a href="#">
-                <img src="./images/box3.jpg" alt="workspase3" 
+                <img class="box-image" src="./images/box3.jpg" alt="workspase3" 
                 width="370" height="294" />
               </a>
             </li>
           </ul>
         </section>
-        <section>
+        <section class="team">
         <!--team-->
-          <h2>
+          <h2 class="header2">
             Наша команда
           </h2>
-          <!--team card 1-->
           <ul>
-              <li>
-                <img src="./images/staff1.jpg" alt="Product Designer" 
-                width="270" height="260" />
-                <!--name-->
-                  <h3>Игорь Демьяненко</h3>
-                <!--position-->
-                  <span>Product Designer</span>
-              </li>
+            <!--team card 1-->
+            <li class="team-card">
+              <img class="photo" src="./images/staff1.jpg" alt="Product Designer" 
+              width="270" height="260" />
+              <!--name-->
+              <h3 class="name">Игорь Демьяненко</h3>
+              <!--position-->
+              <span class="job">Product Designer</span>
+            </li>
             <!--team card 2-->
-              <li>
-                <img src="./images/staff2.jpg" alt="Frontend Developer" width="270" height="260" />
-                <!--name-->
-                  <h3>Ольга Репина</h3>
-                <!--position-->
-                  <span>Frontend Developer</span>
-              </li>
+            <li class="team-card">
+              <img class="photo" src="./images/staff2.jpg" alt="Frontend Developer" width="270" height="260" />
+              <!--name-->
+              <h3 class="name">Ольга Репина</h3>
+              <!--position-->
+              <span class="job">Frontend Developer</span>
+            </li>
             <!--team card 3-->
-              <li>
-                <img src="./images/staff3.jpg" alt="Marketing" width="270" height="260" />
-                <!--name-->
-                  <h3>Николай Тарасов</h3>
-                <!--position-->
-                  <span>Marketing</span>
+            <li class="team-card">
+              <img class="photo" src="./images/staff3.jpg" alt="Marketing" width="270" height="260" />
+              <!--name-->
+              <h3 class="name">Николай Тарасов</h3>
+              <!--position-->
+              <span class="job">Marketing</span>
               </li>
             <!--team card 4-->
-              <li>
-                <img src="./images/staff4.jpg" alt="UI Designer" width="270" height="260" />
-                <!--name-->
-                  <h3>Михаил Ермаков</h3>
-                <!--position-->
-                  <span>UI Designer</span>
-              </li>
+            <li class="team-card">
+              <img class="photo" src="./images/staff4.jpg" alt="UI Designer" width="270" height="260" />
+              <!--name-->
+              <h3 class="name">Михаил Ермаков</h3>
+              <!--position-->
+              <span class="job">UI Designer</span>
+            </li>
           </ul>
         </section>
     </main>
     <!--bottom-->
-    <footer>
-        <a class="logo" href= "#studio">WebStudio</a>
-        <address id="contacts">
+    <footer class="footer">
+        <a class="logo" href= "./index.html">WebStudio</a>
+        <address class="address" id="contacts">
           г. Киев, пр-т Леси Украинки, 26 <br/>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
     </footer>
   </body>
